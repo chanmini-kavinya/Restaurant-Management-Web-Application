@@ -1,0 +1,56 @@
+body
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#aboutus h2{margin-bottom: 25px;}
+.img-wrap
+{
+	width: 100%
+}
+.img-wrap img
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #999999
+}
+.text-right{
+	padding-top:18px;
+		text-align: right;
+	}
+	a{
+		color: white;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #1EB72C;
+		text-decoration: none;
+	}
+	li{
+		display: inline;
+		padding: 1%;
+		font-weight: bold;
+		font-family: 'lato', sans-serif;
+	}
+	header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 5 20 0 0;
+		background-color: #363636;
+	}
+header .logo {
+        float: left;
+        height:50;
+		margin-left: 20px;
+}
+
+header .logo img {
+        height: 50;
+        width: auto;
+}
+
